@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="6" vgap="6">
+    <constraints>
+      <xy x="20" y="20" width="500" height="146"/>
+    </constraints>
+    <properties/>
+    <border type="empty">
+      <size top="10" left="10" bottom="10" right="10"/>
+    </border>
+    <children>
+      <component id="d2be1" class="javax.swing.JLabel" binding="filePathLabel">
+        <constraints border-constraint="West"/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <text value="   File Path:"/>
+        </properties>
+      </component>
+      <component id="98d7c" class="javax.swing.JTextField" binding="pathTextField">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <margin top="0" left="0" bottom="0" right="0"/>
+        </properties>
+      </component>
+      <component id="ee2e1" class="javax.swing.JButton" binding="pathButton">
+        <constraints border-constraint="East"/>
+        <properties>
+          <margin top="2" left="14" bottom="2" right="14"/>
+          <text value="..."/>
+        </properties>
+      </component>
+      <grid id="bc995" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <vspacer id="b3070">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="ea688" class="javax.swing.JButton" binding="countWordsButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Count Words"/>
+            </properties>
+          </component>
+          <component id="c008" class="javax.swing.JButton" binding="countCharactersButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Count Characters"/>
+            </properties>
+          </component>
+          <component id="94783" class="javax.swing.JCheckBox" binding="ignoreCaseCheckBox" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Ignore Case"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
